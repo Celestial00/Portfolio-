@@ -1,0 +1,376 @@
+
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Didact Gothic', sans-serif;
+    list-style: none;
+
+    
+
+}
+
+.hero {
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Imgs/bg2.jpg);
+    background-size: cover;
+    background-image: center;
+    background-repeat: no-repeat;
+
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+
+}
+
+nav ul li {
+
+
+    display: inline-block;
+    padding-right: 38px;
+
+}
+
+nav ul li a {
+
+
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-size: 18px;
+    letter-spacing: 2px;
+
+}
+
+nav ul li a:hover {
+
+
+   
+    color: rgb(191, 42, 42) ;
+    
+   
+}
+
+nav p,
+span {
+
+
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-size: 25px;
+
+}
+
+span {
+
+    color: rgb(191, 42, 42);
+    font-size: 30px;
+
+}
+
+.content {
+
+
+    float: right;
+    padding-top: 175px;
+    padding-right: 300px;
+
+}
+
+.content p {
+
+    text-align: start;
+    padding-left: 70%;
+    letter-spacing: 2px;
+
+
+}
+
+.Name {
+
+    padding-bottom: 15px;
+    font-size: 70px;
+
+}
+
+.descri {
+
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.skills {
+
+    padding-top: 30px;
+    font-size: 20px;
+
+}
+
+.content .btn {
+
+    float: right;
+    margin-top: 20px;
+    margin-right: 363px;
+
+
+}
+
+
+
+.content .btn button{
+
+    
+    background-color: rgb(220, 32, 32);
+    border: none;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.content .btn button:hover{
+
+    background-color:  rgb(207, 75, 75);
+ 
+    transition: .4s;
+   
+
+}
+
+.content .btn button a{
+
+    
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    font-weight: 500;
+
+}
+
+.About-sec{
+
+    background-color: #191919;
+    padding: 100px 16%;
+
+
+}
+
+.About-sec img{
+
+    width: 380px;
+    height: 520px;
+
+}
+
+.About{
+
+    display: flex;
+    gap: 150px;
+
+}
+
+.About .about-des h2{
+
+
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+
+
+}
+
+.About .about-des h5{
+
+
+    
+    font-size: 50px;
+    margin-bottom: 10px;
+    
+
+
+}
+
+.About .about-des span{
+
+    font-size: 60px;
+    letter-spacing: 2px;
+
+
+}
+.About .about-des p{
+
+    letter-spacing: 3px;
+    color: rgb(121, 83, 83);
+
+}
+
+.About .about-des button{
+
+    margin-top: 24px;
+    width: 80px;
+    height: 50px;
+    background-color: rgb(220, 32, 32);
+    border-radius: 5px;
+
+}
+.About .about-des button a{
+
+    
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+
+}
+
+.About .about-des button:hover{
+
+    background-color: transparent;
+    border: 2px solid rgb(220, 32, 32);
+
+    transition: .4s;
+}
+
+.About .about-des button a:hover{
+
+    
+   color: white;
+
+}
+
+.service{
+
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+
+
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+
+    text-align: center;
+}
+
+.box{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+
+}
+
+.card{
+
+    height: 365px;
+    width:  335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 2px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.card h5{
+
+
+    font-size: 23px;
+    margin: 15px;
+    margin: 15p;
+    color: rgb(220, 32, 32);
+    
+}
+.card p{
+
+  
+    letter-spacing: 3px;
+    margin: 25px;
+
+}
+
+.card .button{
+
+    background-color: rgb(220, 32, 32)  ;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 2px;
+   
+
+}
+
+.card .button:hover{
+
+    background-color: transparent;
+    border: 2px solid rgb(220, 32, 32);
+    transition: .4s;
+
+
+}
+
+.contact-me{
+
+    width: 100%;
+    height: 290px;
+    background-color: #191919;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.contact-me p{
+
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+}
+
+.contact-me .Btn2{
+
+    background-color: rgb(220, 32, 32)  ;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 2px;
+    transition: .4s;
+   
+
+
+}
+
+.contact-me .Btn2:hover{
+
+
+    background-color: transparent;
+    border: 2px solid rgb(220, 32, 32);
+
+
+}
